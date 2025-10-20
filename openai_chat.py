@@ -3,7 +3,7 @@ import tiktoken
 import os
 from rich import print
 
-def num_tokens_from_messages(messages, model='gpt-4o'):
+def num_tokens_from_messages(messages, model='gpt-5'):
   """Returns the number of tokens used by a list of messages.
   Copied with minor changes from: https://platform.openai.com/docs/guides/chat/managing-tokens """
   try:
