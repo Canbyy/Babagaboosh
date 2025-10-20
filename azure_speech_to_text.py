@@ -16,7 +16,7 @@ class SpeechToTextManager:
         except TypeError:
             exit("Ooops! You forgot to set AZURE_TTS_KEY or AZURE_TTS_REGION in your environment!")
         
-        self.azure_speechconfig.speech_recognition_language="en-US"
+        self.azure_speechconfig.speech_recognition_language="nl-NL"
         
     def speechtotext_from_mic(self):
         
